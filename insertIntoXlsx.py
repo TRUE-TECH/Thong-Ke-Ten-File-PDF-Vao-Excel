@@ -2,8 +2,8 @@ import xlsxwriter
 import pikepdf
 import os
 
-folder = r'C:\Users\khoaminion\Desktop\a\\'
-xlsxdes = r'C:\Users\khoaminion\Desktop\data.xlsx'
+folder = r'D:\Auto\pdf\\'
+xlsxdes = r'D:\Auto\data.xlsx'
 
 src = os.listdir(folder)
 
