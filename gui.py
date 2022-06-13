@@ -1,4 +1,3 @@
-
 from tkinter import *
 from tkinter import filedialog
 import os
@@ -11,12 +10,10 @@ window.title("get file name and count pages")
 
 window.geometry('350x200')
 
-
 selectfolder = filedialog.askdirectory(title="select folder") + '/'
 
 selectexel = filedialog.askdirectory(title="select folder to create data.xlsx") + '/data.xlsx'
    
-
 def get_data():
 
     src = os.listdir(selectfolder)
@@ -47,11 +44,8 @@ def get_data():
     workbook.close()
     window.destroy()
 
-
-
 btn2 = Button(window, text="RUN",command= get_data)
 
 btn2.pack(ipadx=5, pady=15)
-
 
 window.mainloop()
