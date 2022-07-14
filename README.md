@@ -1,6 +1,6 @@
-# Thong Ke Ten File PDF Vao Excel
+# Thống Kê Tên File PDF Vào Excel
 Làm bởi anh Khoa và anh Luân
 
-# Cách dùng
+# Cách dùng GUI
 - B1: Chọn thư mục chứa các file pdf
 - B2: Chọn nơi tạo file data.xlsx
