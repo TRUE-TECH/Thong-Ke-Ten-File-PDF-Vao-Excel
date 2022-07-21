@@ -44,8 +44,8 @@ def get_data():
     workbook.close()
     window.destroy()
 
-btn2 = Button(window, text="RUN",command= get_data)
+btnRun = Button(window, text="RUN",command= get_data)
 
-btn2.pack(ipadx=5, pady=15)
+btnRun.pack(ipadx=5, pady=15)
 
 window.mainloop()
