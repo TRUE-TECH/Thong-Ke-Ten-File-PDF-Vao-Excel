@@ -6,7 +6,7 @@ import pikepdf
 
 window = Tk()
 
-window.title("get file name and count pages")
+window.title("Get file name and count pages")
 
 window.geometry('350x200')
 
